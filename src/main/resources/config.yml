@@ -1,0 +1,9 @@
+noPermission: "&cYou do not have permission to execute this command!"
+illegalArguments: "&cIllegal Arguments! Please try again with the correct arguments!"
+cropBlocks:
+  - WHEAT
+  - MELON
+  - PUMPKIN
+  - SUGAR_CANE
+  - CARROT
+  - BEETROOT

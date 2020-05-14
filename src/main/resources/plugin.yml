@@ -1,0 +1,7 @@
+name: CropTop
+version: ${project.version}
+main: me.moshe.croptop.CropTop
+authors: [MosheTDD]
+
+commands:
+  croptop:
