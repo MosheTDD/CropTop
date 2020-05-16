@@ -7,3 +7,7 @@ cropBlocks:
   - SUGAR_CANE
   - CARROT
   - BEETROOT
+
+lore:
+  - ''
+  - "&aCrops Broken: &b%crops%"

@@ -17,7 +17,7 @@ public class Utils {
     public Utils(CropTop plugin){
         this.plugin = plugin;
     }
-
+    Material mat = Material.SUGAR_CANE_BLOCK;
     public static String colorize(String s) {
         return ChatColor.translateAlternateColorCodes('&', s);
     }
@@ -151,8 +151,8 @@ public class Utils {
     }
 
     // Util to create ItemStacks easier and quickly
-    public static ItemStack createItem(Material material, String displayName, ArrayList<String> lore) {
-        ItemStack itemStack = new ItemStack(material, 1);
+    public static ItemStack createItem(Material material, String displayName, ArrayList<String> lore, short data) {
+        ItemStack itemStack = new ItemStack(material, 1, data);
         ItemMeta itemMeta = itemStack.getItemMeta();
         itemMeta.setDisplayName(Utils.colorize(displayName));
         // Avoid exceptions and make putting no lore possible
